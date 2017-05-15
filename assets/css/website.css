@@ -2,7 +2,7 @@ body {
 	/*font-family: 'Space Mono', monospace;*/\
 	font-family: 'Orbitron', sans-serif;
 	/*font-family: 'Abel', sans-serif;*/
-	background-image: url("assets/images/true.png");
+	background-image: url("true.png");
 	text-align: center;
 }
 
@@ -13,7 +13,7 @@ body {
 	font-weight: bold;
 	color:#ffe6ff;
 	text-shadow: 2px 2px #cce6ff;
-	
+	text-align: center;
 }
 
 #leftcol {
@@ -70,25 +70,4 @@ body {
 	border-color: #007299;
 	color: #007299;
 	box-shadow: none;
-}
-
-
-#newGameBtn {
-	margin: 10px;
-	font-family: 'Orbitron', sans-serif;
-	padding:10px;
-	font-size: 20px;
-	font-weight: bold;
-	border-radius: 5px; 
-	
-}
-
-#newgame {
-	margin: 10px;
-	font-family: 'Orbitron', sans-serif;
-	min-height:500px;
-	padding:10px;
-	text-shadow: 1px 1px #cce6ff;
-	border: 3px solid #e6ffe6;
-	
 }

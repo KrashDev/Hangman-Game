@@ -4,13 +4,8 @@
 	<link href="website.css" type="text/css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Abel|Orbitron" rel="stylesheet">
-<script>
-	 var alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h',
-        'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's',
-        't', 'u', 'v', 'w', 'x', 'y', 'z'];
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
 
-
-</script>
 
 </head>
 
@@ -18,7 +13,7 @@
 	<div class="container">
 
 		<div class="row">
-			<div class="col-md-8">
+			<div class="col-md-12">
 				<div id="logo">
 
 					<p>Space Hangman</p>
@@ -28,42 +23,13 @@
 		</div>
 	
 		<div class="row">
-			<div class="buttons">
-
-			<button type="button" class="btn">A</button>
-			<button type="button" class="btn">B</button>
-			<button type="button" class="btn">C</button>
-			<button type="button" class="btn">D</button>
-			<button type="button" class="btn">E</button>
-			<button type="button" class="btn">F</button>
-			<button type="button" class="btn">G</button>
-			<button type="button" class="btn">H</button>
-			<button type="button" class="btn">I</button>
-			<button type="button" class="btn">J</button>
-			<button type="button" class="btn">K</button>
-			<button type="button" class="btn">L</button>
-			<button type="button" class="btn">M</button> 
-			<button type="button" class="btn">N</button> <br>
-			<button type="button" class="btn">O</button>
-			<button type="button" class="btn">P</button>
-			<button type="button" class="btn">Q</button>
-			<button type="button" class="btn">R</button>
-			<button type="button" class="btn">S</button>
-			<button type="button" class="btn">T</button>
-			<button type="button" class="btn">U</button>
-			<button type="button" class="btn">V</button>
-			<button type="button" class="btn">W</button>
-			<button type="button" class="btn">X</button>
-			<button type="button" class="btn">Y</button>
-			<button type="button" class="btn">Z</button>
-
-
+			<div id="letterBank">
 			</div>
-    	</div> 
+		</div> 
     	
 		<div class="row">
-				<div class="col-md-4 push-md-2">
-					<div id="aside">
+				<div class="col-md-4">
+					<div id="leftcol">
 						<p>
 						Image
 						</p>
@@ -78,31 +44,34 @@
 						<p>
 						Press any key to get started!
 						</p>
-						<p>
-						Wins 0 Losses 0
+						<p id="wins">
+						Wins 0
+						</p>
+						<p id="losses">
+						Losses 0
 						</p>
 						<p>
 						Current word
 						</p>
-						<p>
-						_ _ _ _ _ _ _
+						<p id="spaces">
+						
 						</p>
-						<p>
-						Number of guesses remaining
+						<p id="livesMessage">
+						Number of lives remaining
 						</p>
-						<p>
-						# of guesses
+						<p id="lives">
+						10
 						</p>
-						<p>
-						Letters already guessed
-						</p>
-						<p>
-						# Letters guessed
-						</p>
+						
 					</div>
 				</div>
-		</div>	
+		
 
+		<div class="col-md-4">
+					<div id="newgame">
+						<button id="newGameBtn">New Game</button>
+					</div>
+		</div>
 	</div>	
 </body>
 </html>
