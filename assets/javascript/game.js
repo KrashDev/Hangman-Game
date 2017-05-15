@@ -24,7 +24,7 @@
 		}
 		document.getElementById("spaces").innerHTML=spaces;
 
-		//creating some buttons
+		//creating button letters
 		for (i = 0; i < alphabet.length; i++){
 			var letter = alphabet[i];
 			var btn = document.createElement("BUTTON");
@@ -56,11 +56,12 @@
 				}
 				//Win condition
 				if (solution.indexOf('_') == -1){
-					document.getElementById("livesMessage").innerHTML = "You Win!";
+					document.getElementById("livesMessage").innerHTML = "You Win!!!";
 				}
 			};
 			var buttonDiv = document.getElementById("letterBank");
 			buttonDiv.appendChild(btn);
+
 		}
 	}
 	

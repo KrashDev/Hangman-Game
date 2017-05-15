@@ -13,8 +13,16 @@ body {
 	font-weight: bold;
 	color:#ffe6ff;
 	text-shadow: 2px 2px #cce6ff;
-	
+
 }
+
+.letter {
+    border-radius: 8px;
+    padding: 8px;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
 
 #leftcol {
 	margin: 10px;
@@ -44,32 +52,14 @@ body {
 	
 }
 
-/*.buttons {
-	margin-top:3px;
-	letter-spacing: 3px;
+#letterBank {
 	font-family: 'Orbitron', sans-serif;
-	color:#ffe6ff;
-	border: 3px solid #e6ffe6;
-}*/
-
-.btn.outline {
-	margin: 10px;
-	text-align:center;
-	background: none;
-	padding: 12px 22px;
-}
-.btn-primary.outline {
-	border: 2px solid #0099cc;
-	color: #0099cc;
-}
-.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
-	color: #33a6cc;
-	border-color: #33a6cc;
-}
-.btn-primary.outline:active, .btn-primary.outline.active {
-	border-color: #007299;
-	color: #007299;
-	box-shadow: none;
+	padding:10px;
+	font-size: 20px;
+	letter-spacing: normal;
+	text-transform: uppercase;
+	font-weight: bold;
+	
 }
 
 
